@@ -15,7 +15,7 @@ Requirements
 - fuzzywuzzy
 
 
-To Reproduce Results
+Training
 --------
 Download `tsdata.zip` from **[link](https://drive.google.com/open?id=1oHDTOX5u4JS8RvnvlogeQaGPvarjKRk-)** and extract in the repository
 ```
