@@ -25,7 +25,7 @@ unzip tsdata.zip
 - `fkdifficpart-2m-1.lower` and `fkeasypart-2m-1.lower`: Unsupervised sets of easy and difficult set of sentences judged on readability ease scores.
 - `fk.lower.vec`: Dict2vec embeddings trained on the above unsupervised sets. 
 - `wiki-split.en.lower` and `wiki-split.sen.lower`: 10k parallel pairs of difficult and simplified variants.
-- `test.en` and `references.tsv`: Test set and references (8 per each sentence in `test.en`).
+- `test.en` and `references.tsv`: Test set and references (eight tab seperated references per each sentence in `test.en`).
 
 Train the models using
 ```
