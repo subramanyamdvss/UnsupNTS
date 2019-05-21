@@ -22,15 +22,15 @@ Get the data needed from (link) and extract the zip file
 unzip tsdata.zip
 ```
 `tsdata.zip` has
-- `fkdifficpart-2m-1.lower` and `fkeasypart-2m-1.lower`: unsupervised sets of easy and difficult set of sentences judged on readability ease scores.
-- `fk.lower.vec`: dict2vec embeddings trained on the above unsupervised sets. 
+- `fkdifficpart-2m-1.lower` and `fkeasypart-2m-1.lower`: Unsupervised sets of easy and difficult set of sentences judged on readability ease scores.
+- `fk.lower.vec`: Dict2vec embeddings trained on the above unsupervised sets. 
 - `wiki-split.en.lower` and `wiki-split.sen.lower`: 10k parallel pairs of difficult and its simplified sentence.
 
 Train the models using
 ```
 bash train.sh
 ```
-which has commands to train a
+`train.sh` has 
 - UNTS system from unsupervised simplification data using the exact same settings described in the paper.
 - UNTS-10k system, using additional 10k supervised pairs of mixture of split-rephrase and simplification parallel pairs. 
 - UNMT system on the unsupervised simplification data.
