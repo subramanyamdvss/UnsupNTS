@@ -25,6 +25,7 @@ unzip tsdata.zip
 - `fkdifficpart-2m-1.lower` and `fkeasypart-2m-1.lower`: Unsupervised sets of easy and difficult set of sentences judged on readability ease scores.
 - `fk.lower.vec`: Dict2vec embeddings trained on the above unsupervised sets. 
 - `wiki-split.en.lower` and `wiki-split.sen.lower`: 10k parallel pairs of difficult and its simplified sentence.
+- `test.en` and `references.tsv`: Test set and references 8 per each sentence in `test.en`
 
 Train the models using
 ```
@@ -47,8 +48,7 @@ Generation and Evaluation of Simplifications
 bash translate.sh
 ```
 `translate.sh` is used for
-- Generating simplifications of `INPUT.TXT`
-- Evaluation of `OUTPUT.TXT`, filter the redundancies
+- Generating simplifications of `test.en`
 - Computing stand alone metrics such as fk score difference, tree similarity and document similarity metrics
 - Computing  SARI, BLEU and word-diff
 
