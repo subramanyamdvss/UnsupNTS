@@ -17,7 +17,7 @@ Requirements
 
 To Reproduce Results
 --------
-Get the data needed from (link) and extract the zip file
+Download `tsdata.zip` from **[link](https://drive.google.com/open?id=1oHDTOX5u4JS8RvnvlogeQaGPvarjKRk-)** and extract in the repository
 ```
 unzip tsdata.zip
 ```
@@ -36,8 +36,10 @@ bash train.sh
 - UNMT system on the unsupervised simplification data.
 - ablations on adversarial and separation/classifier losses
 
-For the above systems, training takes about 6 hrs in Nvidia T4 GPU. For more details and additional options, run the above scripts with the `--help` flag.
-Alternatively, visit the ipynb in google colaboratory to reproduce the results.
+For the above systems, training takes about 6 hrs each in Nvidia T4 GPU. For more details and additional options, run the above scripts with the `--help` flag.
+Alternatively, visit the **[ipynb](https://colab.research.google.com/drive/1cVuzsU389WC9-1NliaP6mpBU77ZkgW6v)** in google colaboratory to reproduce the results. To access pretrained models visit **[link](https://drive.google.com/file/d/11U-MnbjkLQXK_z5R6RPsfSZWwmSPoj34/view?usp=sharing)**. See `predictions` folder to get the generations from the pretrained models. 
+
+**Note**: Pretrained models were trained with pytorch 0.3.1 and may not exactly reproduce the result in pytorch 1.0.1 
 
 Generation and Evaluation of Simplifications 
 --------
