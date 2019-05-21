@@ -49,8 +49,8 @@ bash translate.sh
 ```
 `translate.sh` is used for
 - Generating simplifications of `test.en`
-- Computing stand alone metrics such as fk score difference, tree similarity and document similarity metrics
-- Computing  SARI, BLEU and word-diff
+- Computing stand alone metrics such as Flesch readability ease score difference, Tree similarity and Document similarity metrics
+- Computing  SARI, BLEU and Word-diff
 
 Acknowledgements
 --------
