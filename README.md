@@ -37,7 +37,7 @@ bash train.sh
 - ablations on adversarial and separation/classifier losses
 
 For the above systems, training takes about 6 hrs each in Nvidia T4 GPU. For more details and additional options, run the above scripts with the `--help` flag.
-Alternatively, visit the **[ipynb](https://colab.research.google.com/drive/1cVuzsU389WC9-1NliaP6mpBU77ZkgW6v)** in google colaboratory to reproduce the results. To access pretrained models visit **[link](https://drive.google.com/file/d/11U-MnbjkLQXK_z5R6RPsfSZWwmSPoj34/view?usp=sharing)**. The folder `predictions` has the generations from the pretrained models. 
+Alternatively, visit the **[ipynb](https://drive.google.com/file/d/1cVuzsU389WC9-1NliaP6mpBU77ZkgW6v/view?usp=sharing)** in google colaboratory to reproduce the results. To access pretrained models visit **[link](https://drive.google.com/file/d/11U-MnbjkLQXK_z5R6RPsfSZWwmSPoj34/view?usp=sharing)**. The folder `predictions` has the generations from the pretrained models. 
 
 **Note**: Pretrained models were trained with pytorch 0.3.1 and may not exactly reproduce the result in pytorch 1.0.1 
 
@@ -46,11 +46,11 @@ Generation and Evaluation of Simplifications
 ```
 bash translate.sh
 ```
-The above command does
-- For generating simplifications of `INPUT.TXT`
-- For evaluation of `OUTPUT.TXT`, filter the redundancies
-- Compute stand alone metrics such as fk score difference, tree similarity and document similarity metrics
-- Compute  SARI, BLEU and word-diff
+`translate.sh` is used for
+- Generating simplifications of `INPUT.TXT`
+- Evaluation of `OUTPUT.TXT`, filter the redundancies
+- Computing stand alone metrics such as fk score difference, tree similarity and document similarity metrics
+- Computing  SARI, BLEU and word-diff
 
 Acknowledgements
 --------
