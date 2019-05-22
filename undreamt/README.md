@@ -1,6 +1,7 @@
+**Note**: This is an adaptation to the original UNdreaMT repository, with additional discriminator and seperator losses and controllable simplification framework.
+
 UNdreaMT: Unsupervised Neural Machine Translation
 ==============
-**Note**: This is an adaptation to the original UNdreaMT repository, with additional discriminator and seperator losses and controllable simplification framework.
 
 This is an open source implementation of our unsupervised neural machine translation system, described in the following paper:
 
