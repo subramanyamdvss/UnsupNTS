@@ -49,7 +49,7 @@ Generation and Evaluation of Simplifications
 bash translate.sh
 ```
 `translate.sh` is used for
-- Generating simplifications of `test.en`.
+- Generating simplifications of test dataset.
 - Computing stand alone metrics such as Flesch readability ease score difference, Tree similarity and Document similarity metrics.
 - Computing  SARI, BLEU and Word-diff metrics.
 
