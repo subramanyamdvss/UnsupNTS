@@ -57,7 +57,7 @@ Acknowledgements
 --------
 A large portion of this repo is borrowed from the following repos: https://github.com/artetxem/undreamt and https://github.com/senisioi/NeuralTextSimplification.
 
-If you use this code for academic research, please cite the paper in question:
+If you use our system for academic research, please cite the paper in question:
 ```
 @article{surya2018unsupervised,
   title={Unsupervised Neural Text Simplification},
