@@ -7,14 +7,6 @@ Sai Surya, Abhijit Mishra, Anirban Laha, Parag Jain, and Karthik Sankaranarayana
 
 <img src="UnsupNTS.png" width="500">
 
-Requirements
---------
-- Python 3.6
-- PyTorch 1.0.1
-- NLTK 
-- textstat 
-- fuzzywuzzy
-
 
 Training
 --------
