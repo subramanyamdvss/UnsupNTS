@@ -1,4 +1,4 @@
-UnsupNTS
+UnsupNTS: Unsupervised Neural Text Simplification
 ==============
 
 This is an implementation of the Unsupervised Neural Text Simplification system and their semi-supervised variants mentioned in the paper:
