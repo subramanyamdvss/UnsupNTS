@@ -5,7 +5,7 @@ This is an implementation of the Unsupervised Neural Text Simplification system 
 
 Sai Surya, Abhijit Mishra, Anirban Laha, Parag Jain, and Karthik Sankaranarayanan. **[Unsupervised Neural Text Simplification](https://arxiv.org/pdf/1810.07931.pdf)** arXiv preprint arXiv:1810.07931 (2018).
 
-<img src="diagram-1.png" width="500">
+<img src="UnsupNTS.png" width="500">
 
 Requirements
 --------
