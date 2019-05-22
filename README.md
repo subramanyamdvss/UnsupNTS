@@ -23,10 +23,10 @@ Download `tsdata.zip` from **[link](https://drive.google.com/open?id=1oHDTOX5u4J
 unzip tsdata.zip
 ```
 `tsdata.zip` has
-- `fkdifficpart-2m-1.lower` and `fkeasypart-2m-1.lower`: Unsupervised sets of easy and difficult set of sentences judged on readability ease scores.
-- `fk.lower.vec`: Dict2vec embeddings trained on the above unsupervised sets. 
-- `wiki-split.en.lower` and `wiki-split.sen.lower`: 10k parallel pairs of difficult and simplified variants.
-- `test.en` and `references.tsv`: Test set and references (eight tab seperated references per each sentence in `test.en`).
+- Unsupervised sets of easy and difficult set of sentences judged on readability ease scores.
+- Dict2vec embeddings trained on the above unsupervised sets. 
+- 10k parallel pairs of difficult and simplified variants.
+- Test set and references - eight tab seperated references per each test sentence.
 
 Train the models using
 ```
