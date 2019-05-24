@@ -1,7 +1,7 @@
 set -e
 
 #defining paths
-ts=( `pwd` )
+ts=`pwd`
 src=en
 tgt=sen
 tsdata=$ts/tsdata
