@@ -8,7 +8,7 @@ cuda="--cuda"
 unsup="--unsup"
 
 #defining paths
-ts=( `pwd` )
+ts=`pwd`
 tsdata=$ts/tsdata
 codepath=$ts/undreamt
 model=$ts/modeldir
