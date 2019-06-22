@@ -1,7 +1,7 @@
 UnsupNTS: Unsupervised Neural Text Simplification
 ==============
 
-This is an implementation of the Unsupervised Neural Text Simplification system and their semi-supervised variants mentioned in the ACL 2019 long paper:
+This is the original implementation of the Unsupervised Neural Text Simplification system and their semi-supervised variants mentioned in the ACL 2019 long paper:
 
 Sai Surya, Abhijit Mishra, Anirban Laha, Parag Jain, and Karthik Sankaranarayanan. **[Unsupervised Neural Text Simplification](https://arxiv.org/pdf/1810.07931.pdf)** arXiv preprint arXiv:1810.07931 (2018).
 
