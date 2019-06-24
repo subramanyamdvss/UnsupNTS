@@ -694,10 +694,10 @@ def main_train():
                         # try:
                         trainer.step(step,args.log_interval,device,args=args,ncontrol=ncontrol)
                         # except Exception as e:
-                        #     print('EXCEPTION OCCURED BRO !!: {}'.format(e))
+                        #     print('EXCEPTION OCCURED !!: {}'.format(e))
                         #     continue
 #                 except Exception as e:
-#                     print('EXCEPTION OCCURED BRO !!: {}'.format(e))
+#                     print('EXCEPTION OCCURED !!: {}'.format(e))
 #                     continue
             if args.save is not None and args.save_interval > 0 and step % args.save_interval == 0 and \
             step>args.startfrom and step >= args.start_save and step < args.stop_save:
