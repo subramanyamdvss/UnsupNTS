@@ -49,12 +49,22 @@ Acknowledgements
 --------
 A large portion of this repo is borrowed from the following repos: https://github.com/artetxem/undreamt and https://github.com/senisioi/NeuralTextSimplification.
 
-If you use our system for academic research, please cite the paper in question:
+If you use our system for academic research, please cite the following paper:
 ```
-@article{surya2018unsupervised,
-  title={Unsupervised Neural Text Simplification},
-  author={Surya, Sai and Mishra, Abhijit and Laha, Anirban and Jain, Parag and Sankaranarayanan, Karthik},
-  journal={arXiv preprint arXiv:1810.07931},
-  year={2018}
+@inproceedings{surya-etal-2019-unsupervised,
+    title = "Unsupervised Neural Text Simplification",
+    author = "Surya, Sai  and
+      Mishra, Abhijit  and
+      Laha, Anirban  and
+      Jain, Parag  and
+      Sankaranarayanan, Karthik",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P19-1198",
+    doi = "10.18653/v1/P19-1198",
+    pages = "2058--2068",
 }
 ```
