@@ -65,6 +65,6 @@ If you use our system for academic research, please cite the following paper:
     publisher = "Association for Computational Linguistics",
     url = "https://www.aclweb.org/anthology/P19-1198",
     doi = "10.18653/v1/P19-1198",
-    pages = "2058--2068",
+    pages = "2058--2068"
 }
 ```
