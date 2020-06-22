@@ -30,7 +30,7 @@ bash train.sh
 - UNMT system on the unsupervised simplification data.
 - ablations on adversarial and separation/classifier losses.
 
-For the above systems, training takes about 6 hrs each in Nvidia T4 GPU. For more details and additional options, run the above scripts with the `--help` flag.
+For more details and additional options, run the above scripts with the `--help` flag.
 Alternatively, visit the **[ipynb](https://drive.google.com/file/d/1cVuzsU389WC9-1NliaP6mpBU77ZkgW6v/view?usp=sharing)** in google colaboratory to reproduce the results. To access pretrained models visit **[link](https://drive.google.com/file/d/11U-MnbjkLQXK_z5R6RPsfSZWwmSPoj34/view?usp=sharing)**. The folder `predictions` has the generations from the pretrained models. 
 
 **Note**: Pretrained models were trained with pytorch 0.3.1 and may not exactly reproduce the result in pytorch 1.0.1 .
