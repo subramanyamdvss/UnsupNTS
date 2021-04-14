@@ -47,7 +47,7 @@ bash translate.sh
 
 Acknowledgements
 --------
-A large portion of this repo is borrowed from the following repos: https://github.com/artetxem/undreamt and https://github.com/senisioi/NeuralTextSimplification.
+Our code uses functions from https://github.com/artetxem/undreamt and https://github.com/senisioi/NeuralTextSimplification extensively.
 
 If you use our system for academic research, please cite the following paper:
 ```
